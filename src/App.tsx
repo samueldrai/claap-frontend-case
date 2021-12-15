@@ -40,7 +40,7 @@ export default function App() {
                 {invitee.label}
               </Tag>
             ))}
-            {!!inviteList.length && (
+            {!inviteList.length && (
               <VStack
                 px={2}
                 as="span"
